@@ -30,7 +30,7 @@ int main(){
   printf("string cuatro2: %s\n", cuatro2);
 
   char cinco[100] = "hello";
-  char seis[100] = "goodbye";
+  char seis[100] = "adios";
   printf("string cinco: %s\n", cinco);
   printf("string seis: %s\n", seis);
   printf("[mine]compare cinco to seis: %d\n", mystrcmp(cinco, seis));

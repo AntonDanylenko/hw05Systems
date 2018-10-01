@@ -1,4 +1,4 @@
-/*int mystrlen( char *s){
+int mystrlen( char *s){
   int ans = 0;
   while(*s){
     ans++;
@@ -21,7 +21,7 @@ char * mystrncat( char *dest, char *source, int n){
   dest++;
   *dest = 0;
   return ans;
-}*/
+}
 
 char * mystrcpy( char *dest, char *source ){
   for (int i=0; i<sizeof(source); i++){
