@@ -31,3 +31,13 @@ char * mystrcpy( char *dest, char *source ){
   }
   return dest;
 }
+
+int mystrcmp( char *s1, char *s2 ){
+  int ans = 0;
+  while(*s1){
+    ans = ans + *s1 - *s2;
+    *s1++;
+    *s2++;
+  }
+  return ans;
+}
